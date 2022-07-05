@@ -1,0 +1,7 @@
+C:\Users\CS\RiderProjects\Colaboracion de clases 26\Ejer 1\bin\Debug\Ejer_1.exe
+C:\Users\CS\RiderProjects\Colaboracion de clases 26\Ejer 1\bin\Debug\Ejer_1.pdb
+C:\Users\CS\RiderProjects\Colaboracion de clases 26\Ejer 1\obj\Debug\Ejer 1.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\Colaboracion de clases 26\Ejer 1\obj\Debug\Ejer 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\Colaboracion de clases 26\Ejer 1\obj\Debug\Ejer 1.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\Colaboracion de clases 26\Ejer 1\obj\Debug\Ejer_1.exe
+C:\Users\CS\RiderProjects\Colaboracion de clases 26\Ejer 1\obj\Debug\Ejer_1.pdb

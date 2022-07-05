@@ -1,0 +1,7 @@
+C:\Users\CS\RiderProjects\Listas consoladas\Listas en consola\bin\Debug\Listas_en_consola.exe
+C:\Users\CS\RiderProjects\Listas consoladas\Listas en consola\bin\Debug\Listas_en_consola.pdb
+C:\Users\CS\RiderProjects\Listas consoladas\Listas en consola\obj\Debug\Listas en consola.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\Listas consoladas\Listas en consola\obj\Debug\Listas en consola.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\Listas consoladas\Listas en consola\obj\Debug\Listas en consola.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\Listas consoladas\Listas en consola\obj\Debug\Listas_en_consola.exe
+C:\Users\CS\RiderProjects\Listas consoladas\Listas en consola\obj\Debug\Listas_en_consola.pdb

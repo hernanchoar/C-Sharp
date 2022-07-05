@@ -1,0 +1,11 @@
+@startuml
+class Curso {
+    - capacidad_alumnos_maximo : int
+    + Capacidad_Alumnos_Maximo : int <<get>>
+    - nombre_del_curso : string
+    + Nombre_Del_Curso : string <<get>> <<set>>
+    - precio_del_curso : float
+    + Precio_Del_Curso : float <<get>> <<set>>
+    + Curso()
+}
+@enduml

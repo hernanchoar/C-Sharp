@@ -1,0 +1,7 @@
+C:\Users\CS\RiderProjects\modificadores de acceso 27\Ultimo problema\bin\Debug\Ultimo_problema.exe
+C:\Users\CS\RiderProjects\modificadores de acceso 27\Ultimo problema\bin\Debug\Ultimo_problema.pdb
+C:\Users\CS\RiderProjects\modificadores de acceso 27\Ultimo problema\obj\Debug\Ultimo problema.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\modificadores de acceso 27\Ultimo problema\obj\Debug\Ultimo problema.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\modificadores de acceso 27\Ultimo problema\obj\Debug\Ultimo problema.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\modificadores de acceso 27\Ultimo problema\obj\Debug\Ultimo_problema.exe
+C:\Users\CS\RiderProjects\modificadores de acceso 27\Ultimo problema\obj\Debug\Ultimo_problema.pdb

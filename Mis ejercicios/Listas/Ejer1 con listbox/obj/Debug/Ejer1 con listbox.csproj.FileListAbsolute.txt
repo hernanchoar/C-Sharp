@@ -1,0 +1,11 @@
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\bin\Debug\Ejer1_con_listbox.exe.config
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\bin\Debug\Ejer1_con_listbox.exe
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\bin\Debug\Ejer1_con_listbox.pdb
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\obj\Debug\Ejer1 con listbox.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\obj\Debug\Ejer1 con listbox.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\obj\Debug\Ejer1_con_listbox.Properties.Resources.resources
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\obj\Debug\Ejer1 con listbox.csproj.GenerateResource.cache
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\obj\Debug\Ejer1 con listbox.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\obj\Debug\Ejer1_con_listbox.exe
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\obj\Debug\Ejer1_con_listbox.pdb
+C:\Users\CS\RiderProjects\Listas\Ejer1 con listbox\obj\Debug\Ejer1_con_listbox.Form1.resources

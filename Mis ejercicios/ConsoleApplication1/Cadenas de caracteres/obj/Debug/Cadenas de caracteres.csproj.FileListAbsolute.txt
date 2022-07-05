@@ -1,0 +1,7 @@
+C:\Users\CS\RiderProjects\ConsoleApplication1\Cadenas de caracteres\bin\Debug\Cadenas de caracteres.exe
+C:\Users\CS\RiderProjects\ConsoleApplication1\Cadenas de caracteres\bin\Debug\Cadenas de caracteres.pdb
+C:\Users\CS\RiderProjects\ConsoleApplication1\Cadenas de caracteres\obj\Debug\Cadenas de caracteres.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\ConsoleApplication1\Cadenas de caracteres\obj\Debug\Cadenas de caracteres.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\ConsoleApplication1\Cadenas de caracteres\obj\Debug\Cadenas de caracteres.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\ConsoleApplication1\Cadenas de caracteres\obj\Debug\Cadenas de caracteres.exe
+C:\Users\CS\RiderProjects\ConsoleApplication1\Cadenas de caracteres\obj\Debug\Cadenas de caracteres.pdb

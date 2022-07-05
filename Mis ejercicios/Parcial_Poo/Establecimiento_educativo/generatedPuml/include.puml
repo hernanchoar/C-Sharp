@@ -1,0 +1,8 @@
+@startuml
+!include .\\Alumno.puml
+!include .\\Alumno_Medica_Beca.puml
+!include .\\Alumno_Ochenta_Beca.puml
+!include .\\Alumno_Regular.puml
+!include .\\Curso.puml
+!include .\\Inscripcion.puml
+@enduml

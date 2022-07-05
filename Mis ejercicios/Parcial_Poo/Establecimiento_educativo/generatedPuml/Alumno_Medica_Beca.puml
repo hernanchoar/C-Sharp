@@ -1,0 +1,5 @@
+@startuml
+class Alumno_Medica_Beca {
+}
+Alumno_Medica_Beca o-> "alumno" Alumno
+@enduml

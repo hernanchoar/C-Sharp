@@ -1,0 +1,6 @@
+C:\Users\CS\RiderProjects\Examen final programacion\Examen final programacion\bin\Debug\Examen_final_programacion.exe
+C:\Users\CS\RiderProjects\Examen final programacion\Examen final programacion\bin\Debug\Examen_final_programacion.pdb
+C:\Users\CS\RiderProjects\Examen final programacion\Examen final programacion\obj\Debug\Examen final programacion.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\Examen final programacion\Examen final programacion\obj\Debug\Examen final programacion.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\Examen final programacion\Examen final programacion\obj\Debug\Examen_final_programacion.exe
+C:\Users\CS\RiderProjects\Examen final programacion\Examen final programacion\obj\Debug\Examen_final_programacion.pdb

@@ -1,0 +1,7 @@
+C:\Users\CS\RiderProjects\PersonajesConsola\Personajes\bin\Debug\Personajes.exe
+C:\Users\CS\RiderProjects\PersonajesConsola\Personajes\bin\Debug\Personajes.pdb
+C:\Users\CS\RiderProjects\PersonajesConsola\Personajes\obj\Debug\Personajes.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\PersonajesConsola\Personajes\obj\Debug\Personajes.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\PersonajesConsola\Personajes\obj\Debug\Personajes.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\PersonajesConsola\Personajes\obj\Debug\Personajes.exe
+C:\Users\CS\RiderProjects\PersonajesConsola\Personajes\obj\Debug\Personajes.pdb

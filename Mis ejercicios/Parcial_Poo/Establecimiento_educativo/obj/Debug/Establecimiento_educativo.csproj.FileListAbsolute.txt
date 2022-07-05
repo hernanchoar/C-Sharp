@@ -1,0 +1,12 @@
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\bin\Debug\Establecimiento_educativo.exe.config
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\bin\Debug\Establecimiento_educativo.exe
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\bin\Debug\Establecimiento_educativo.pdb
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\obj\Debug\Establecimiento_educativo.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\obj\Debug\Establecimiento_educativo.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\obj\Debug\Establecimiento_educativo.Properties.Resources.resources
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\obj\Debug\Establecimiento_educativo.csproj.GenerateResource.cache
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\obj\Debug\Establecimiento_educativo.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\obj\Debug\Establecimiento_educativo.exe
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\obj\Debug\Establecimiento_educativo.pdb
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\obj\Debug\Establecimiento_educativo.Form1.resources
+C:\Users\CS\RiderProjects\Parcial_Poo\Establecimiento_educativo\obj\Debug\Establecimiento_educativo.INSCRIPCION.resources

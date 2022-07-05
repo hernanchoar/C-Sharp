@@ -1,0 +1,7 @@
+C:\Users\CS\RiderProjects\Herencia\Sumar y Restar\bin\Debug\Sumar_y_Restar.exe
+C:\Users\CS\RiderProjects\Herencia\Sumar y Restar\bin\Debug\Sumar_y_Restar.pdb
+C:\Users\CS\RiderProjects\Herencia\Sumar y Restar\obj\Debug\Sumar y Restar.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\Herencia\Sumar y Restar\obj\Debug\Sumar y Restar.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\Herencia\Sumar y Restar\obj\Debug\Sumar y Restar.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\Herencia\Sumar y Restar\obj\Debug\Sumar_y_Restar.exe
+C:\Users\CS\RiderProjects\Herencia\Sumar y Restar\obj\Debug\Sumar_y_Restar.pdb

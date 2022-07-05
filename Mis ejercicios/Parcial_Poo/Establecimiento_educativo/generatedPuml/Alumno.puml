@@ -1,0 +1,12 @@
+@startuml
+class Alumno {
+    - dni : int
+    + Dni : int <<get>> <<set>>
+    - nombre : string
+    + Nombre : string <<get>> <<set>>
+    - edad : int
+    + Edad : int <<get>> <<set>>
+    - genero : string
+    + Genero : string <<get>> <<set>>
+}
+@enduml

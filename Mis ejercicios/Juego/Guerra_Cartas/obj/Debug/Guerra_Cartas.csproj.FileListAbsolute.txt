@@ -1,0 +1,7 @@
+C:\Users\CS\RiderProjects\Juego\Guerra_Cartas\bin\Debug\Guerra_Cartas.exe
+C:\Users\CS\RiderProjects\Juego\Guerra_Cartas\bin\Debug\Guerra_Cartas.pdb
+C:\Users\CS\RiderProjects\Juego\Guerra_Cartas\obj\Debug\Guerra_Cartas.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\Juego\Guerra_Cartas\obj\Debug\Guerra_Cartas.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\Juego\Guerra_Cartas\obj\Debug\Guerra_Cartas.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\Juego\Guerra_Cartas\obj\Debug\Guerra_Cartas.exe
+C:\Users\CS\RiderProjects\Juego\Guerra_Cartas\obj\Debug\Guerra_Cartas.pdb

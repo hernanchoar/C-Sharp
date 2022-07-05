@@ -1,0 +1,7 @@
+C:\Users\CS\RiderProjects\Despegar\Ejercicios para examen\bin\Debug\Ejercicios_para_examen.exe
+C:\Users\CS\RiderProjects\Despegar\Ejercicios para examen\bin\Debug\Ejercicios_para_examen.pdb
+C:\Users\CS\RiderProjects\Despegar\Ejercicios para examen\obj\Debug\Ejercicios para examen.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\Despegar\Ejercicios para examen\obj\Debug\Ejercicios para examen.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\Despegar\Ejercicios para examen\obj\Debug\Ejercicios para examen.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\Despegar\Ejercicios para examen\obj\Debug\Ejercicios_para_examen.exe
+C:\Users\CS\RiderProjects\Despegar\Ejercicios para examen\obj\Debug\Ejercicios_para_examen.pdb

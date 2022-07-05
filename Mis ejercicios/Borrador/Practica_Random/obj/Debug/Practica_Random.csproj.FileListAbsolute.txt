@@ -1,0 +1,7 @@
+C:\Users\CS\RiderProjects\Borrador\Practica_Random\bin\Debug\Practica_Random.exe
+C:\Users\CS\RiderProjects\Borrador\Practica_Random\bin\Debug\Practica_Random.pdb
+C:\Users\CS\RiderProjects\Borrador\Practica_Random\obj\Debug\Practica_Random.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\Borrador\Practica_Random\obj\Debug\Practica_Random.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\Borrador\Practica_Random\obj\Debug\Practica_Random.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\Borrador\Practica_Random\obj\Debug\Practica_Random.exe
+C:\Users\CS\RiderProjects\Borrador\Practica_Random\obj\Debug\Practica_Random.pdb
