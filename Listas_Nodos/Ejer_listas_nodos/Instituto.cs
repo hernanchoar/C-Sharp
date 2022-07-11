@@ -9,6 +9,7 @@ namespace Ejer_listas_nodos
         private int recaudacion;
         private int paga500 = 500;
         private int paga600 = 600;
+        private int cuota { get; set; }
 
         public int total;
         public List<Alumno> Alumnos
@@ -22,16 +23,11 @@ namespace Ejer_listas_nodos
             get { return recaudacion; }
         }
         
-        public int Paga500
+        public int Cuota
         {
-            get { return paga500; }
+            get { return cuota; }
         }
-        
-        public int Paga600
-        {
-          get { return paga600; }
-        }
-        
+      
         public void AgregarAlumno(Alumno alumno)
         {
             alumnos.Add(alumno);
@@ -42,26 +38,10 @@ namespace Ejer_listas_nodos
             alumnos.Remove(alumno);
         }
 
-        public int Aumentar_Recaudacion(){
-            recaudacion =recaudacion + paga500;
+        public int AumentarRecaudacion(int valor){
+            recaudacion += valor;
             return recaudacion;
         }
-        
-        public int Aumentar_Recaudacion2(){
-            recaudacion = recaudacion + paga600;
-            return recaudacion;
-        }
-        
-        public int Obtener_Ingreso_x_Cuota(int precau)
-        {
-            total = total + recaudacion;
-            
-            return total;
-        }
-            
-        
-        
-        
       
     }
 }

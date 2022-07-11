@@ -29,6 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.txtnom = new System.Windows.Forms.TextBox();
             this.txtlegajo = new System.Windows.Forms.TextBox();
@@ -36,25 +37,33 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAgregarAlumno = new System.Windows.Forms.Button();
             this.txtcantalum = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnTotal = new System.Windows.Forms.Button();
             this.txttotal = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEliminarAlumno = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
+            this.lblCantAlumnos = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.alumnoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.legajoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dNIDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cuota = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alumnoBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(157, 69);
+            this.listBox1.Location = new System.Drawing.Point(120, 69);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(284, 173);
+            this.listBox1.Size = new System.Drawing.Size(205, 173);
             this.listBox1.TabIndex = 0;
             // 
             // txtnom
@@ -102,31 +111,22 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "DNI";
             // 
-            // button1
+            // btnAgregarAlumno
             // 
-            this.button1.Location = new System.Drawing.Point(28, 290);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 51);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Agregar Alumno";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnAgregarAlumno.Location = new System.Drawing.Point(28, 290);
+            this.btnAgregarAlumno.Name = "btnAgregarAlumno";
+            this.btnAgregarAlumno.Size = new System.Drawing.Size(147, 51);
+            this.btnAgregarAlumno.TabIndex = 7;
+            this.btnAgregarAlumno.Text = "Agregar Alumno";
+            this.btnAgregarAlumno.UseVisualStyleBackColor = true;
+            this.btnAgregarAlumno.Click += new System.EventHandler(this.btnAgregarAlumno_Click);
             // 
             // txtcantalum
             // 
-            this.txtcantalum.Location = new System.Drawing.Point(258, 359);
+            this.txtcantalum.Location = new System.Drawing.Point(264, 317);
             this.txtcantalum.Name = "txtcantalum";
             this.txtcantalum.Size = new System.Drawing.Size(110, 20);
             this.txtcantalum.TabIndex = 8;
-            // 
-            // label4
-            // 
-            this.label4.Location = new System.Drawing.Point(258, 335);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(124, 21);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Cantidad de alumnos";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // checkBox1
             // 
@@ -149,37 +149,37 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(512, 75);
+            this.listBox2.Location = new System.Drawing.Point(336, 69);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(210, 173);
+            this.listBox2.Size = new System.Drawing.Size(86, 173);
             this.listBox2.TabIndex = 12;
             // 
-            // button2
+            // btnTotal
             // 
-            this.button2.Location = new System.Drawing.Point(512, 359);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 51);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Total";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnTotal.Location = new System.Drawing.Point(512, 359);
+            this.btnTotal.Name = "btnTotal";
+            this.btnTotal.Size = new System.Drawing.Size(147, 51);
+            this.btnTotal.TabIndex = 13;
+            this.btnTotal.Text = "Total";
+            this.btnTotal.UseVisualStyleBackColor = true;
+            this.btnTotal.Click += new System.EventHandler(this.btnTotal_Click);
             // 
             // txttotal
             // 
-            this.txttotal.Location = new System.Drawing.Point(512, 321);
+            this.txttotal.Location = new System.Drawing.Point(511, 317);
             this.txttotal.Name = "txttotal";
             this.txttotal.Size = new System.Drawing.Size(114, 20);
             this.txttotal.TabIndex = 14;
             // 
-            // button3
+            // btnEliminarAlumno
             // 
-            this.button3.Location = new System.Drawing.Point(28, 368);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(147, 51);
-            this.button3.TabIndex = 15;
-            this.button3.Text = "Eliminar Alumno";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnEliminarAlumno.Location = new System.Drawing.Point(28, 368);
+            this.btnEliminarAlumno.Name = "btnEliminarAlumno";
+            this.btnEliminarAlumno.Size = new System.Drawing.Size(147, 51);
+            this.btnEliminarAlumno.TabIndex = 15;
+            this.btnEliminarAlumno.Text = "Eliminar Alumno";
+            this.btnEliminarAlumno.UseVisualStyleBackColor = true;
+            this.btnEliminarAlumno.Click += new System.EventHandler(this.btnEliminarAlumno_Click);
             // 
             // label5
             // 
@@ -199,23 +199,77 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // lblCantAlumnos
+            // 
+            this.lblCantAlumnos.Location = new System.Drawing.Point(261, 293);
+            this.lblCantAlumnos.Name = "lblCantAlumnos";
+            this.lblCantAlumnos.Size = new System.Drawing.Size(77, 21);
+            this.lblCantAlumnos.TabIndex = 18;
+            this.lblCantAlumnos.Text = "Cantidad Alumnos";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nombreDataGridViewTextBoxColumn,
+            this.legajoDataGridViewTextBoxColumn,
+            this.dNIDataGridViewTextBoxColumn,
+            this.Cuota});
+            this.dataGridView1.DataSource = this.alumnoBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(448, 60);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(413, 182);
+            this.dataGridView1.TabIndex = 19;
+            // 
+            // alumnoBindingSource
+            // 
+            this.alumnoBindingSource.DataSource = typeof(Ejer_listas_nodos.Alumno);
+            // 
+            // nombreDataGridViewTextBoxColumn
+            // 
+            this.nombreDataGridViewTextBoxColumn.DataPropertyName = "Nombre";
+            this.nombreDataGridViewTextBoxColumn.HeaderText = "Nombre";
+            this.nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
+            // 
+            // legajoDataGridViewTextBoxColumn
+            // 
+            this.legajoDataGridViewTextBoxColumn.DataPropertyName = "Legajo";
+            this.legajoDataGridViewTextBoxColumn.HeaderText = "Legajo";
+            this.legajoDataGridViewTextBoxColumn.Name = "legajoDataGridViewTextBoxColumn";
+            // 
+            // dNIDataGridViewTextBoxColumn
+            // 
+            this.dNIDataGridViewTextBoxColumn.DataPropertyName = "DNI";
+            this.dNIDataGridViewTextBoxColumn.HeaderText = "DNI";
+            this.dNIDataGridViewTextBoxColumn.Name = "dNIDataGridViewTextBoxColumn";
+            // 
+            // Cuota
+            // 
+            this.Cuota.DataPropertyName = "Nombre";
+            this.Cuota.HeaderText = "Cuota";
+            this.Cuota.Name = "Cuota";
+            this.Cuota.ReadOnly = true;
+            this.Cuota.ToolTipText = "Cuota que paga el alumno";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(888, 493);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.lblCantAlumnos);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnEliminarAlumno);
             this.Controls.Add(this.txttotal);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnTotal);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.txtcantalum);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAgregarAlumno);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -225,22 +279,25 @@
             this.Controls.Add(this.listBox1);
             this.Location = new System.Drawing.Point(15, 15);
             this.Name = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alumnoBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         private System.Windows.Forms.Button button4;
 
         private System.Windows.Forms.Label label5;
 
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEliminarAlumno;
 
         private System.Windows.Forms.TextBox txttotal;
 
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnTotal;
 
         private System.Windows.Forms.TextBox txtcantalum;
         private System.Windows.Forms.Label label4;
@@ -252,8 +309,16 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAgregarAlumno;
 
         #endregion
+
+        private System.Windows.Forms.Label lblCantAlumnos;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn legajoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dNIDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cuota;
+        private System.Windows.Forms.BindingSource alumnoBindingSource;
     }
 }
