@@ -1,0 +1,11 @@
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\bin\Debug\Ejer_listas_nodos.exe.config
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\bin\Debug\Ejer_listas_nodos.exe
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\bin\Debug\Ejer_listas_nodos.pdb
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.csproj.AssemblyReference.cache
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.Properties.Resources.resources
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.csproj.GenerateResource.cache
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.csproj.CoreCompileInputs.cache
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.exe
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.pdb
+C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.Form1.resources
