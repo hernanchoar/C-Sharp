@@ -14,77 +14,79 @@ namespace Ejer_listas_nodos
     {
         Alumno alum = new Alumno();
         Instituto inst = new Instituto();
+        private const int paga500 = 500;
+        private const int paga600 = 600;
+
+        public int RecaudacionParcial { get; set; }
 
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Carga alumnos en inst.Alumnos
+        /// Guarda en archivo cada aluno en formato Nombre,Legajo,DNI (archivo texto)
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnAgregarAlumno_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
+            try
             {
-                //Cuota de 500
-                var nombre = alum.Nombre;
-                var legajo = alum.Legajo;
-                var dni = alum.DNI;
-                var cuota = inst.Paga500;
+                int cuota = 0;
 
-                nombre = txtnom.Text;
-                legajo = Convert.ToInt32(txtlegajo.Text);
-                dni = Convert.ToInt32(txtdni.Text);
+                if (checkBox1.Checked == true) //Cuota de $500
+                {
+                    checkBox2.Checked = false;
+                    cuota = paga500;
+                }
+                else if (checkBox2.Checked == true) //Cuota de $600
+                {
+                    checkBox1.Checked = false;
+                    cuota = paga600;
+                }
+                else
+                {
+                    throw new ArgumentException("Debe seleccionar el tirpo de cuota");
+                }
+                alum.Nombre = txtnom.Text;
+                alum.Legajo = Convert.ToInt32(txtlegajo.Text);
+                alum.DNI = Convert.ToInt32(txtdni.Text);
 
                 inst.AgregarAlumno(alum);
-                listBox1.Items.Add("Nombre " + nombre + " Legajo " + legajo + " DNI " + dni);
+                listBox1.Items.Add("Nombre " + alum.Nombre + " Legajo " + alum.Legajo + " DNI " + alum.DNI);
                 listBox2.Items.Add(cuota.ToString());
-                inst.Aumentar_Recaudacion();
+                RecaudacionParcial = inst.AumentarRecaudacion(cuota);
                 txtcantalum.Text = inst.Alumnos.Count.ToString();
             }
-            else if (checkBox2.Checked == true)
+            catch(Exception ex)
             {
-                //Cuota de 600
-
-                var nombre = alum.Nombre;
-                var legajo = alum.Legajo;
-                var dni = alum.DNI;
-                var cuota = inst.Paga600;
-                nombre = txtnom.Text;
-                legajo = Convert.ToInt32(txtlegajo.Text);
-                dni = Convert.ToInt32(txtdni.Text);
-
-                inst.AgregarAlumno(alum);
-                listBox1.Items.Add("Nombre " + nombre + " Legajo " + legajo + " DNI " + dni);
-                listBox2.Items.Add(cuota);
-                inst.Aumentar_Recaudacion2();
-                txtcantalum.Text = inst.Alumnos.Count.ToString();
-            }
-            else
-            {
-                MessageBox.Show("Dese seleccionar el tirpo de cuota");
+                MessageBox.Show($"{ex.Message}");
             }
         }
 
-
-        private void label4_Click(object sender, EventArgs e)
+        private void btnTotal_Click(object sender, EventArgs e)
         {
-            // throw new System.NotImplementedException();
+            txttotal.Text = RecaudacionParcial.ToString();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnEliminarAlumno_Click(object sender, EventArgs e)
         {
-            var salida = inst.Obtener_Ingreso_x_Cuota(inst.Recaudacion);
-            txttotal.Text = salida.ToString();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            listBox1.Items.Remove(listBox1.SelectedIndex);
+            var alum = inst.Alumnos[listBox1.SelectedIndex];
+            inst.Alumnos.Remove(alum);
+            listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+            
             //  inst.Eliminar_Alumno(listBox1.SelectedIndex);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(inst.Alumnos.Count.ToString());
+            //MessageBox.Show(inst.Alumnos.Count.ToString());
+            //PORQUE MUESTRA SOLO EL ULTIMO VARIAS VECES
+            alumnoBindingSource.DataSource = inst.Alumnos;
+            
+            //Reducir valor RecaudacionParcial, Valor Contador de Alumnos, Valor de Total.
             
         }
     }

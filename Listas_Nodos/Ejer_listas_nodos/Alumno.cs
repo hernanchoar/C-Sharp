@@ -7,7 +7,6 @@ namespace Ejer_listas_nodos
         private string nombre;
         private int legajo;
         private int dni;
-        private int cuota;
         
         public string Nombre
         {

@@ -9,3 +9,12 @@ C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_n
 C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.exe
 C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.pdb
 C:\Users\CS\RiderProjects\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.Form1.resources
+C:\Users\L0697469\source\repos\Clases\C-Sharp\Listas_Nodos\Ejer_listas_nodos\bin\Debug\Ejer_listas_nodos.exe.config
+C:\Users\L0697469\source\repos\Clases\C-Sharp\Listas_Nodos\Ejer_listas_nodos\bin\Debug\Ejer_listas_nodos.exe
+C:\Users\L0697469\source\repos\Clases\C-Sharp\Listas_Nodos\Ejer_listas_nodos\bin\Debug\Ejer_listas_nodos.pdb
+C:\Users\L0697469\source\repos\Clases\C-Sharp\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.csprojAssemblyReference.cache
+C:\Users\L0697469\source\repos\Clases\C-Sharp\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.Form1.resources
+C:\Users\L0697469\source\repos\Clases\C-Sharp\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.Properties.Resources.resources
+C:\Users\L0697469\source\repos\Clases\C-Sharp\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.csproj.GenerateResource.cache
+C:\Users\L0697469\source\repos\Clases\C-Sharp\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.exe
+C:\Users\L0697469\source\repos\Clases\C-Sharp\Listas_Nodos\Ejer_listas_nodos\obj\Debug\Ejer_listas_nodos.pdb
