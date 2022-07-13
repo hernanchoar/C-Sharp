@@ -18,20 +18,18 @@ namespace Hernan_Parcial
         }
 
         //public bool altaRobot(Explorador robot)
-        public bool altaRobot(Robot robot)
+        public List<Robot> AltaRobot(Robot robot)
         {
-            var respuesta = false;
             try
             {
                 Robots.Add(robot);
-                respuesta = true;
             }
             catch(Exception ex)
             {
                 MessageBox.Show(ex.ToString());
-                respuesta = false;
             }
-            return respuesta;
+
+            return robots;
         }
     }
 }

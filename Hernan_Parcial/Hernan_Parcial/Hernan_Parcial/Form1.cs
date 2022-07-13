@@ -21,46 +21,20 @@ namespace Hernan_Parcial
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Robot robot = new Robot();
-            if(checkAlta.Checked==false)
+            Robot robot = new Robot
             {
-                MessageBox.Show("Debe activar el ROBOT");
-            }
-            else
-            {
-                robot.Alta = checkAlta.Checked;
-                robot.Alto = Convert.ToInt32(txtAlto.Text);
-                robot.Ancho = Convert.ToInt32(txtAncho.Text);
-                robot.Costo = Convert.ToInt32(txtCosto.Text);
-                robot.Peso = Convert.ToInt32(txtPeso.Text);
-                robot.Largo = Convert.ToInt32(txtLargo.Text);
-                robot.Nombre = txtNombre.Text;
-                robot.Tipo= (EnumTipo)cmbTipo.SelectedItem;
-                robot.Bateria = (EnumBateria)cmbBateria.SelectedItem;
-                robot.Camara = (EnumCamara)cmbCamara.SelectedItem;
-
-                if (txtSensorCalor.Text == "") txtSensorCalor.Text = "0";
-                robot.SensorCalor = Convert.ToInt32(txtSensorCalor.Text);
-
-                if (txtSensorSismo.Text == "") txtSensorSismo.Text = "0";
-                robot.SensorSismo = Convert.ToInt32(txtSensorSismo.Text);
-
-                if (txtSensorViento.Text == "") txtSensorViento.Text = "0";
-                robot.SensorViento = Convert.ToInt32(txtSensorViento.Text);
-
-                if (txtAltitud.Text == "") txtAltitud.Text = "0";
-                robot.AltitudMinima = Convert.ToInt32(txtAltitud.Text);
-
-                if (txtDesplazo.Text == "") txtDesplazo.Text = "0";
-                robot.Desplazo = Convert.ToInt32(txtDesplazo.Text);
-
-                if (txtVelocidad.Text == "") txtVelocidad.Text = "0";
-                robot.Velocidad = Convert.ToInt32(txtVelocidad.Text);
-                if (gst.altaRobot(robot))
-                {
-                    listBox1.DataSource = null;
-                    listBox1.DataSource = gst.Robots;
+                Nombre = txtNombre.Text,
+                Bateria = new Bateria()
+                { 
+                    Capacidad = Convert.ToDecimal(txtCapacidad),
+                    Id = Convert.ToInt32(cmbBateria.SelectedItem)
                 }
+            };
+     
+            if(gst.AltaRobot(robot) != null)
+            {
+                listBox1.DataSource = null;
+                listBox1.DataSource = gst.Robots;
             }
         }
 
@@ -94,7 +68,7 @@ namespace Hernan_Parcial
             switch (cmbTipo.Text)
             {
                 case "Sonda_Especial":
-                    lblAltitud.Visible=true; txtAltitud.Visible = true;
+                    lblAltitud.Visible = true; txtAltitud.Visible = true;
                     lblDesplazo.Visible = false; txtDesplazo.Visible = false; lblVelocidad.Visible = false; txtVelocidad.Visible = false;
                     lblSensorCalor.Visible = false; txtSensorCalor.Visible = false; lblSensorSismo.Visible = false; txtSensorSismo.Visible = false; lblViento.Visible = false; txtSensorViento.Visible = false;
                     txtDesplazo.Text = ""; txtVelocidad.Text = "";
@@ -114,14 +88,15 @@ namespace Hernan_Parcial
                     txtAltitud.Text = "";
                     txtDesplazo.Text = ""; txtVelocidad.Text = "";
                     break;
-                default:
-                    lblAltitud.Visible = false; txtAltitud.Visible = false;
-                    lblDesplazo.Visible = false; txtDesplazo.Visible = false; lblVelocidad.Visible = false; txtVelocidad.Visible = false;
-                    lblSensorCalor.Visible = false; txtSensorCalor.Visible = false; lblSensorSismo.Visible = false; txtSensorSismo.Visible = false; lblViento.Visible = false; txtSensorViento.Visible = false;
-                    txtAltitud.Text = "";
-                    txtDesplazo.Text = ""; txtVelocidad.Text = "";
-                    txtSensorCalor.Text = ""; txtSensorSismo.Text = ""; txtSensorViento.Text = "";
-                    break;
+                default: break;
+                //default:
+                //    lblAltitud.Visible = false; txtAltitud.Visible = false;
+                //    lblDesplazo.Visible = false; txtDesplazo.Visible = false; lblVelocidad.Visible = false; txtVelocidad.Visible = false;
+                //    lblSensorCalor.Visible = false; txtSensorCalor.Visible = false; lblSensorSismo.Visible = false; txtSensorSismo.Visible = false; lblViento.Visible = false; txtSensorViento.Visible = false;
+                //    txtAltitud.Text = "";
+                //    txtDesplazo.Text = ""; txtVelocidad.Text = "";
+                //    txtSensorCalor.Text = ""; txtSensorSismo.Text = ""; txtSensorViento.Text = "";
+                //    break;
             }
         }
     }
